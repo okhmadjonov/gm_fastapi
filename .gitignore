@@ -1,0 +1,29 @@
+# Virtual Environment (Virtual muhit)
+venv/
+.venv/
+env/
+ENV/
+
+# Python kesh fayllari
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Maxfiy sozlamalar (Environment variables)
+.env
+.env.local
+.env.shared
+
+# Ma'lumotlar bazasi (Agar SQLite ishlatilsa)
+*.db
+*.sqlite3
+
+# OS va IDE sozlamalari
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
